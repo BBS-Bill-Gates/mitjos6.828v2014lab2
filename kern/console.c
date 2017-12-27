@@ -429,8 +429,8 @@ static void
 cons_putc(int c)
 {
 	serial_putc(c);
-	lpt_putc(c);//输出到打印机
-	cga_putc(c);//输出到显示器
+	lpt_putc(c);
+	cga_putc(c);
 }
 
 // initialize the console devices
